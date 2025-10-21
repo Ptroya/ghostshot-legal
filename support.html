@@ -7,280 +7,384 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
+            line-height: 1.7;
+            max-width: 900px;
             margin: 0 auto;
             padding: 20px;
-            color: #333;
-            background: #f9fafb;
+            color: #1a1a1a;
+            background: #ffffff;
         }
         .container {
             background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 50px;
+            border: 1px solid #e5e5e5;
         }
         h1 { 
-            color: #6B46C1; 
-            border-bottom: 3px solid #6B46C1; 
-            padding-bottom: 12px;
-            margin-bottom: 24px;
+            color: #000000; 
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
         }
         h2 { 
-            color: #553C9A; 
-            margin-top: 32px;
+            color: #2c2c2c; 
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 40px;
             margin-bottom: 16px;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 8px;
         }
         h3 {
-            color: #4A5568;
-            margin-top: 24px;
+            color: #404040;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 28px;
             margin-bottom: 12px;
         }
+        h4 {
+            color: #4a4a4a;
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 14px 0;
+            color: #404040;
+        }
         a { 
-            color: #6B46C1;
+            color: #0066cc;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
-        ul { 
-            margin: 12px 0;
-            padding-left: 24px;
+        ul, ol { 
+            margin: 14px 0;
+            padding-left: 28px;
         }
         li { 
-            margin: 8px 0;
+            margin: 10px 0;
+            color: #404040;
         }
-        .contact-box { 
-            background: #EDE9FE; 
+        .contact-section { 
+            background: #f8f8f8; 
             padding: 24px; 
-            border-left: 4px solid #6B46C1; 
-            margin: 24px 0;
-            border-radius: 8px;
-        }
-        .contact-box a {
-            font-weight: 600;
-            font-size: 1.1em;
+            border-left: 3px solid #000000; 
+            margin: 28px 0;
         }
         .faq-item {
-            background: #F9FAFB;
-            padding: 16px;
-            margin: 16px 0;
-            border-radius: 8px;
-            border-left: 3px solid #9CA3AF;
-        }
-        .faq-item h3 {
-            margin-top: 0;
-            color: #1F2937;
-        }
-        .emoji {
-            font-size: 1.2em;
-            margin-right: 8px;
-        }
-        .info-box {
-            background: #F0FDF4;
+            background: #fafafa;
             padding: 20px;
-            border-radius: 8px;
+            margin: 20px 0;
+            border: 1px solid #e5e5e5;
+        }
+        .faq-item h4 {
+            margin-top: 0;
+            color: #2c2c2c;
+        }
+        .info-table {
+            background: #fafafa;
+            padding: 24px;
             margin: 24px 0;
-            border: 2px solid #10B981;
+            border: 1px solid #e5e5e5;
+        }
+        .info-table p {
+            margin: 8px 0;
+            line-height: 1.8;
         }
         hr {
             border: none;
-            border-top: 1px solid #E2E8F0;
-            margin: 32px 0;
-        }
-        ol {
-            margin: 12px 0;
-            padding-left: 24px;
+            border-top: 1px solid #d1d1d1;
+            margin: 40px 0;
         }
         code {
-            background: #F3F4F6;
+            background: #f0f0f0;
             padding: 2px 6px;
-            border-radius: 4px;
-            font-family: 'Courier New', monospace;
+            border-radius: 3px;
+            font-family: 'SF Mono', 'Courier New', monospace;
             font-size: 0.9em;
+            color: #2c2c2c;
+        }
+        strong {
+            font-weight: 600;
+            color: #2c2c2c;
+        }
+        .section-note {
+            font-size: 15px;
+            color: #666666;
+            font-style: italic;
+            margin-top: 8px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1><span class="emoji">👻</span>GhostShot Support</h1>
+        <h1>Support & Contact</h1>
+        <p style="color: #666666; font-size: 15px; margin-bottom: 32px; padding-bottom: 20px; border-bottom: 1px solid #e5e5e5;">
+            GhostShot Customer Support and Technical Assistance
+        </p>
 
-        <div class="contact-box">
-            <h2><span class="emoji">📧</span>Contact Us</h2>
-            <p><strong>Email:</strong> <a href="mailto:help.ghostshot@gmail.com">help.ghostshot@gmail.com</a></p>
+        <h2>Contact Information</h2>
+        <div class="contact-section">
+            <p><strong>Email Support:</strong> <a href="mailto:help.ghostshot@gmail.com">help.ghostshot@gmail.com</a></p>
             
-            <p>For support inquiries, please email us with:</p>
+            <p>When contacting support, please include the following information to help us assist you more effectively:</p>
             <ul>
-                <li>Your iOS version</li>
+                <li>iOS version number</li>
                 <li>Device model (e.g., iPhone 14 Pro, iPad Air)</li>
-                <li>Detailed description of your issue</li>
-                <li>Screenshots (if applicable)</li>
+                <li>GhostShot app version</li>
+                <li>Detailed description of the issue or question</li>
+                <li>Screenshots or screen recordings (if applicable)</li>
+                <li>Steps to reproduce the issue (if reporting a bug)</li>
             </ul>
             
-            <p><strong>Response Time:</strong> We typically respond within 24-48 hours.</p>
+            <p><strong>Response Time:</strong> We typically respond to all inquiries within 24-48 hours during business days.</p>
         </div>
 
         <hr>
 
-        <h2><span class="emoji">🔧</span>Troubleshooting</h2>
+        <h2>Troubleshooting Guide</h2>
 
-        <h3>Camera Not Working</h3>
+        <h3>Camera Access Issues</h3>
+        <p>If the camera is not functioning within the app:</p>
         <ol>
-            <li>Go to <strong>Settings > Privacy & Security > Camera</strong></li>
-            <li>Enable camera access for GhostShot</li>
-            <li>Restart the app</li>
+            <li>Open your device <strong>Settings</strong></li>
+            <li>Navigate to <strong>Privacy & Security → Camera</strong></li>
+            <li>Ensure GhostShot has permission enabled</li>
+            <li>Force close and restart the application</li>
+            <li>If the issue persists, restart your device</li>
         </ol>
 
-        <h3>Photos Not Saving</h3>
+        <h3>Photo Saving Problems</h3>
+        <p>If photos are not being saved properly:</p>
         <ul>
-            <li>Check that you've selected a category before capturing</li>
-            <li>Ensure sufficient storage space on your device</li>
-            <li>Try restarting the app</li>
-            <li>Check if you're in an active capture session</li>
+            <li>Verify that a category has been selected before capturing</li>
+            <li>Check available storage space on your device (Settings → General → iPhone Storage)</li>
+            <li>Confirm you are in an active capture session</li>
+            <li>Force close and reopen the application</li>
+            <li>Check that you have not exceeded category limits</li>
         </ul>
 
-        <h3>Photos Disappearing Too Quickly</h3>
+        <h3>Automatic Deletion Issues</h3>
+        <p>If photos are being deleted unexpectedly or not deleting as scheduled:</p>
         <ul>
-            <li>Check your retention settings in each category</li>
-            <li>Remember: photos are automatically deleted based on your retention period</li>
-            <li>Save important photos to your Photos library before deletion</li>
-            <li>Check the recycle bin (24-hour recovery window)</li>
+            <li>Review retention settings for the specific category (tap category → Settings)</li>
+            <li>Remember that photos are automatically deleted based on your configured retention period</li>
+            <li>Check the Recycle Bin for recently deleted photos (24-hour recovery window)</li>
+            <li>To preserve important photos permanently, use the save function to export them to your Photos library</li>
+            <li>Verify the app is not being force-closed by the system, which may interrupt deletion schedules</li>
         </ul>
 
-        <h3>Cannot Access Photos Library</h3>
+        <h3>Photo Library Access</h3>
+        <p>If you cannot save photos to your device's Photos library:</p>
         <ol>
-            <li>Go to <strong>Settings > Privacy & Security > Photos</strong></li>
-            <li>Set GhostShot to "Add Photos Only" or "Full Access"</li>
-            <li>Return to the app and try saving again</li>
+            <li>Open device <strong>Settings</strong></li>
+            <li>Go to <strong>Privacy & Security → Photos</strong></li>
+            <li>Select GhostShot from the app list</li>
+            <li>Set permission to "Add Photos Only" or "Full Access"</li>
+            <li>Return to GhostShot and attempt to save again</li>
         </ol>
 
-        <h3>App Crashes or Freezes</h3>
+        <h3>Application Crashes or Performance Issues</h3>
+        <p>If the app crashes, freezes, or exhibits poor performance:</p>
+        <ol>
+            <li>Force close the application (swipe up from app switcher)</li>
+            <li>Reopen GhostShot</li>
+            <li>If problem continues, restart your device</li>
+            <li>Check for available iOS updates (Settings → General → Software Update)</li>
+            <li>Ensure you have the latest version of GhostShot from the App Store</li>
+            <li>If issue persists after these steps, contact support with crash details</li>
+        </ol>
+
+        <h3>OCR Text Recognition Not Working</h3>
+        <p>If the text recognition feature is not functioning correctly:</p>
         <ul>
-            <li>Force close the app and reopen it</li>
-            <li>Restart your device</li>
-            <li>Check for iOS updates</li>
-            <li>If issue persists, contact us with details</li>
+            <li>Ensure the photo contains clear, legible text</li>
+            <li>Check that lighting conditions in the photo are adequate</li>
+            <li>Verify your device supports on-device text recognition (iOS 14.0 or later)</li>
+            <li>Try capturing the text at a different angle or distance</li>
+            <li>The feature works best with printed text rather than handwriting</li>
         </ul>
 
         <hr>
 
-        <h2><span class="emoji">❓</span>Frequently Asked Questions</h2>
+        <h2>Frequently Asked Questions</h2>
 
         <div class="faq-item">
-            <h3>How long are photos kept?</h3>
-            <p>Photos are automatically deleted based on your retention settings:</p>
+            <h4>How long are photos retained in the app?</h4>
+            <p>Photos are automatically deleted based on your configured retention settings. Available retention periods include:</p>
             <ul>
                 <li>30 minutes</li>
                 <li>3 hours</li>
-                <li>1 day (default)</li>
+                <li>1 day (default setting)</li>
                 <li>3 days</li>
                 <li>1 week</li>
-                <li>Delete after sharing</li>
+                <li>Delete immediately after sharing</li>
             </ul>
-            <p>You can set a global default or customize retention per category.</p>
+            <p>You can configure a global default retention period or customize the setting for each individual category.</p>
         </div>
 
         <div class="faq-item">
-            <h3>Can I recover deleted photos?</h3>
-            <p>Photos remain in the recycle bin for <strong>24 hours</strong>. After that, they are permanently deleted and cannot be recovered. To keep a photo permanently, save it to your Photos library before it's deleted.</p>
+            <h4>Is it possible to recover deleted photos?</h4>
+            <p>Photos deleted from categories are moved to the Recycle Bin, where they remain accessible for 24 hours. After this period expires, photos are permanently deleted and cannot be recovered through any means.</p>
+            <p>To preserve a photo beyond its scheduled deletion time, use the save function to export it to your device's Photos library before it is deleted.</p>
         </div>
 
         <div class="faq-item">
-            <h3>Does GhostShot backup my photos?</h3>
-            <p>No. All photos are stored <strong>locally on your device</strong> and are not backed up to any cloud service. If you want to keep a photo permanently, save it to your Photos library using the save button.</p>
+            <h4>Does GhostShot back up my photos to cloud storage?</h4>
+            <p>No. All photos are stored exclusively on your local device within the application's private storage. No cloud backup, synchronization, or server upload occurs. This design ensures maximum privacy and security.</p>
+            <p>If you wish to back up important photos, manually save them to your Photos library, which can then be backed up through iCloud or other backup services you use.</p>
         </div>
 
         <div class="faq-item">
-            <h3>Why doesn't GhostShot save to my Camera Roll?</h3>
-            <p>GhostShot is designed for <strong>temporary storage</strong>. Photos stay private in the app and won't clutter your Camera Roll. You can manually save any photo to your Camera Roll using the save button in the photo viewer.</p>
+            <h4>Why doesn't GhostShot automatically save photos to the Camera Roll?</h4>
+            <p>GhostShot is designed specifically for temporary photo storage. Photos remain private within the application and do not automatically clutter your Camera Roll or Photos library. This design provides better organization and privacy control.</p>
+            <p>You can manually save any photo to your Camera Roll at any time by using the save button in the photo viewer.</p>
         </div>
 
         <div class="faq-item">
-            <h3>Can I sync photos across devices?</h3>
-            <p>No. GhostShot does not support cloud sync. Photos remain on the device where they were captured. This is by design to maintain privacy and security.</p>
+            <h4>Can I synchronize photos across multiple devices?</h4>
+            <p>No. GhostShot does not support multi-device synchronization or cloud storage. Photos remain exclusively on the device where they were captured. This design choice prioritizes privacy and security by eliminating data transmission and storage on external servers.</p>
         </div>
 
         <div class="faq-item">
-            <h3>How many categories can I create?</h3>
-            <p>You can create up to <strong>5 custom categories</strong> (default limit, configurable). Each category can have its own name, icon, color, and retention settings.</p>
+            <h4>How many categories can I create?</h4>
+            <p>The application allows creation of up to 5 custom categories (this is the default limit and may be configurable in settings). Each category supports independent configuration of:</p>
+            <ul>
+                <li>Category name</li>
+                <li>Icon selection</li>
+                <li>Color scheme</li>
+                <li>Retention period</li>
+            </ul>
         </div>
 
         <div class="faq-item">
-            <h3>Is my data safe?</h3>
-            <p>Yes! All photos are stored in the app's private sandbox on your device. No data is transmitted to any servers. See our <a href="https://ptroya.github.io/ghostshot-legal/privacy.html">Privacy Policy</a> for complete details.</p>
+            <h4>How does GhostShot protect my privacy?</h4>
+            <p>GhostShot implements several privacy-focused design principles:</p>
+            <ul>
+                <li>All photos stored locally on device in private application storage</li>
+                <li>No data transmission to external servers (except anonymized crash reports)</li>
+                <li>No collection of personal information</li>
+                <li>No advertising or tracking</li>
+                <li>Automatic deletion based on user-defined schedules</li>
+                <li>Optional export to Photos library under user control</li>
+            </ul>
+            <p>For complete details, please review our <a href="https://ptroya.github.io/ghostshot-legal/privacy.html">Privacy Policy</a>.</p>
         </div>
 
         <div class="faq-item">
-            <h3>What is Quick Capture Mode?</h3>
-            <p>Quick Capture Mode lets you skip the category selection screen and go straight to the camera. The app will use your last selected category and retention settings. Enable it in the category chooser screen.</p>
+            <h4>What is Quick Capture Mode?</h4>
+            <p>Quick Capture Mode is a convenience feature that bypasses the category selection screen and opens the camera directly. When enabled:</p>
+            <ul>
+                <li>The app uses your most recently selected category</li>
+                <li>Previously configured retention settings are applied</li>
+                <li>Camera opens immediately upon app launch</li>
+            </ul>
+            <p>This mode can be enabled or disabled from the category selection screen.</p>
         </div>
 
         <div class="faq-item">
-            <h3>How do I change the app language?</h3>
-            <p>Go to <strong>Settings</strong> in the app and toggle between English and Spanish (Español).</p>
+            <h4>How does the OCR text recognition feature work?</h4>
+            <p>GhostShot includes on-device Optical Character Recognition (OCR) powered by Apple's Vision framework. This feature:</p>
+            <ul>
+                <li>Extracts text from photos entirely on your device</li>
+                <li>Does not transmit images or text to external servers</li>
+                <li>Works best with clear, well-lit printed text</li>
+                <li>Stores recognized text alongside the photo in local storage</li>
+                <li>Allows copying extracted text to clipboard</li>
+            </ul>
+            <p>Text recognition is subject to the same automatic deletion schedule as the associated photo.</p>
+        </div>
+
+        <div class="faq-item">
+            <h4>How do I change the application language?</h4>
+            <p>To change the interface language:</p>
+            <ol>
+                <li>Open the application Settings menu</li>
+                <li>Locate the Language option</li>
+                <li>Select your preferred language (English or Spanish)</li>
+                <li>The interface will update immediately</li>
+            </ol>
+        </div>
+
+        <div class="faq-item">
+            <h4>What happens to my data if I uninstall the app?</h4>
+            <p>When you uninstall GhostShot from your device, all photos, categories, settings, and associated data are permanently deleted. This data cannot be recovered after uninstallation.</p>
+            <p>If you plan to reinstall the app and wish to preserve certain photos, save them to your Photos library before uninstalling.</p>
         </div>
 
         <hr>
 
-        <h2><span class="emoji">📱</span>App Information</h2>
-        <div class="info-box">
-            <p><strong>Version:</strong> 1.0<br>
-            <strong>Requires:</strong> iOS 14.0 or later<br>
-            <strong>Size:</strong> ~5 MB<br>
-            <strong>Languages:</strong> English, Spanish<br>
-            <strong>Category:</strong> Photo & Video<br>
-            <strong>Privacy:</strong> No data collected</p>
+        <h2>Technical Specifications</h2>
+        <div class="info-table">
+            <p><strong>Current Version:</strong> 1.0</p>
+            <p><strong>Minimum iOS Version:</strong> 14.0 or later</p>
+            <p><strong>Approximate Size:</strong> 5 MB</p>
+            <p><strong>Supported Languages:</strong> English, Spanish</p>
+            <p><strong>Category:</strong> Photo & Video</p>
+            <p><strong>Data Collection:</strong> Minimal (anonymized crash reports only)</p>
+            <p><strong>Compatible Devices:</strong> iPhone, iPad, iPod touch</p>
         </div>
 
         <hr>
 
-        <h2><span class="emoji">📄</span>Legal</h2>
+        <h2>Legal Documentation</h2>
+        <p>Please review the following legal documents for complete information about your rights and our policies:</p>
         <ul>
-            <li><a href="https://ptroya.github.io/ghostshot-legal/privacy.html">Privacy Policy</a> - How we handle your information</li>
-            <li><a href="https://ptroya.github.io/ghostshot-legal/terms.html">Terms of Service</a> - Rules and conditions of use</li>
+            <li><a href="https://ptroya.github.io/ghostshot-legal/privacy.html">Privacy Policy</a> - Details on data handling and privacy practices</li>
+            <li><a href="https://ptroya.github.io/ghostshot-legal/terms.html">Terms of Service</a> - Terms and conditions governing use of the application</li>
         </ul>
 
         <hr>
 
-        <h2><span class="emoji">💡</span>Feature Requests</h2>
-        <p>We love hearing from users! If you have ideas for new features, email us at <a href="mailto:help.ghostshot@gmail.com">help.ghostshot@gmail.com</a> with "Feature Request" in the subject line.</p>
-
-        <p>Some ideas we're considering:</p>
+        <h2>Feature Requests and Feedback</h2>
+        <p>We welcome feedback and feature suggestions from our users. If you have ideas for new features or improvements, please contact us at <a href="mailto:help.ghostshot@gmail.com">help.ghostshot@gmail.com</a> with "Feature Request" in the subject line.</p>
+        
+        <p>Please provide as much detail as possible about your suggested feature, including:</p>
         <ul>
-            <li>Additional photo filters</li>
-            <li>QR code scanning</li>
-            <li>Text recognition (OCR)</li>
-            <li>Export to PDF</li>
-            <li>More retention time options</li>
+            <li>Description of the proposed feature</li>
+            <li>Use case or problem it would solve</li>
+            <li>How you envision it working within the app</li>
         </ul>
 
         <hr>
 
-        <h2><span class="emoji">🐛</span>Report a Bug</h2>
-        <p>Found a bug? Help us improve GhostShot by reporting it:</p>
+        <h2>Bug Reports</h2>
+        <p>If you encounter a bug or technical issue, please help us improve GhostShot by submitting a detailed report:</p>
         
         <p><strong>Email:</strong> <a href="mailto:help.ghostshot@gmail.com">help.ghostshot@gmail.com</a><br>
-        <strong>Subject:</strong> Bug Report - [Brief Description]</p>
+        <strong>Subject Line:</strong> Bug Report - [Brief Description]</p>
 
-        <p>Please include:</p>
+        <p>Please include the following information in your bug report:</p>
         <ul>
-            <li>Steps to reproduce the bug</li>
-            <li>Expected behavior</li>
-            <li>Actual behavior</li>
-            <li>Screenshots or screen recordings (if possible)</li>
+            <li>Detailed steps to reproduce the issue</li>
+            <li>Expected behavior vs. actual behavior</li>
+            <li>Screenshots or screen recordings demonstrating the issue</li>
             <li>Device model and iOS version</li>
+            <li>GhostShot app version</li>
+            <li>Frequency of occurrence (always, sometimes, rarely)</li>
+            <li>Any error messages displayed</li>
         </ul>
 
         <hr>
 
-        <h2><span class="emoji">🌟</span>Leave a Review</h2>
-        <p>Enjoying GhostShot? Please consider leaving a review on the App Store! Your feedback helps us improve and helps other users discover the app.</p>
+        <h2>App Store Reviews</h2>
+        <p>If you find GhostShot useful, we would greatly appreciate your feedback on the App Store. User reviews help us improve the application and assist other potential users in making informed decisions.</p>
+        
+        <p>To leave a review:</p>
+        <ol>
+            <li>Open the App Store application</li>
+            <li>Search for "GhostShot"</li>
+            <li>Scroll to the Ratings & Reviews section</li>
+            <li>Tap "Write a Review"</li>
+        </ol>
 
         <hr>
 
-        <div style="text-align: center; color: #718096; padding: 20px 0;">
-            <p><strong>Thank you for using GhostShot!</strong> 👻📸</p>
-            <p style="font-size: 0.9em;">Take, Share, Vanish.</p>
+        <div style="text-align: center; color: #666666; padding: 20px 0; border-top: 1px solid #e5e5e5; margin-top: 40px;">
+            <p style="font-size: 14px;">© 2025 GhostShot. All rights reserved.</p>
         </div>
     </div>
 </body>
