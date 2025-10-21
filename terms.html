@@ -7,247 +7,406 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
+            line-height: 1.7;
+            max-width: 900px;
             margin: 0 auto;
             padding: 20px;
-            color: #333;
-            background: #f9fafb;
+            color: #1a1a1a;
+            background: #ffffff;
         }
         .container {
             background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 50px;
+            border: 1px solid #e5e5e5;
         }
         h1 { 
-            color: #6B46C1; 
-            border-bottom: 3px solid #6B46C1; 
-            padding-bottom: 12px;
-            margin-bottom: 24px;
+            color: #000000; 
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
         }
         h2 { 
-            color: #553C9A; 
-            margin-top: 32px;
+            color: #2c2c2c; 
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 40px;
             margin-bottom: 16px;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 8px;
         }
         h3 {
-            color: #4A5568;
-            margin-top: 24px;
+            color: #404040;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 28px;
             margin-bottom: 12px;
         }
+        p {
+            margin: 14px 0;
+            color: #404040;
+        }
         a { 
-            color: #6B46C1;
+            color: #0066cc;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
-        ul { 
-            margin: 12px 0;
-            padding-left: 24px;
+        ul, ol { 
+            margin: 14px 0;
+            padding-left: 28px;
         }
         li { 
-            margin: 8px 0;
+            margin: 10px 0;
+            color: #404040;
         }
-        ol {
-            margin: 12px 0;
-            padding-left: 24px;
+        .notice-box { 
+            background: #f8f8f8; 
+            padding: 24px; 
+            border-left: 3px solid #000000; 
+            margin: 28px 0;
         }
-        .highlight { 
-            background: #FEF3C7; 
-            padding: 20px; 
-            border-left: 4px solid #F59E0B; 
-            margin: 24px 0;
-            border-radius: 4px;
+        .notice-box strong {
+            color: #000000;
+        }
+        .critical-notice {
+            background: #fef8f8;
+            padding: 24px;
+            margin: 28px 0;
+            border: 2px solid #c62828;
+            border-left-width: 4px;
+        }
+        .critical-notice h3 {
+            color: #c62828;
+            margin-top: 0;
         }
         .metadata {
-            color: #718096;
-            font-size: 14px;
-            margin-bottom: 24px;
+            color: #666666;
+            font-size: 15px;
+            margin-bottom: 32px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e5e5e5;
         }
-        .warning {
-            background: #FEE2E2;
-            padding: 20px;
-            border-radius: 8px;
-            margin: 24px 0;
-            border: 2px solid #EF4444;
-        }
-        .emoji {
-            font-size: 1.2em;
-            margin-right: 4px;
+        strong {
+            font-weight: 600;
+            color: #2c2c2c;
         }
         hr {
             border: none;
-            border-top: 1px solid #E2E8F0;
-            margin: 32px 0;
+            border-top: 1px solid #d1d1d1;
+            margin: 40px 0;
+        }
+        .caps-text {
+            font-weight: 600;
+            color: #2c2c2c;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Terms of Service for GhostShot</h1>
+        <h1>Terms of Service</h1>
         
         <p class="metadata">
             <strong>Effective Date:</strong> October 17, 2025<br>
-            <strong>Last Updated:</strong> October 17, 2025
+            <strong>Last Updated:</strong> October 17, 2025<br>
+            <strong>Application:</strong> GhostShot Mobile Application
         </p>
 
         <h2>1. Acceptance of Terms</h2>
-        <p>By downloading, installing, or using GhostShot (the "App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.</p>
+        <p>By downloading, installing, accessing, or using GhostShot (the "App," "Application," or "Service"), you ("User" or "you") agree to be bound by these Terms of Service ("Terms," "Agreement," or "Terms of Service"). If you do not agree to all provisions of these Terms, you must immediately discontinue use of the App and uninstall it from your device.</p>
+        
+        <p>These Terms constitute a legally binding agreement between you and the operator of GhostShot ("we," "us," or "our"). Your continued use of the App constitutes ongoing acceptance of these Terms and any modifications thereto.</p>
 
         <h2>2. Description of Service</h2>
-        <p>GhostShot is a temporary photo storage and management application that allows users to:</p>
+        <p>GhostShot is a mobile application designed for temporary photo storage and management on iOS devices. The Service provides users with the following functionality:</p>
         <ul>
-            <li>Capture photos using their device camera</li>
-            <li>Organize photos into custom categories</li>
-            <li>Set automatic deletion timers for photos</li>
-            <li>Edit and share captured photos</li>
-            <li>Manage temporary photo storage privately on their device</li>
+            <li>Photo capture using the device camera</li>
+            <li>Organization of photos into user-defined categories</li>
+            <li>Configurable automatic deletion timers for stored photos</li>
+            <li>Basic photo editing capabilities</li>
+            <li>Photo sharing functionality via standard iOS sharing mechanisms</li>
+            <li>On-device Optical Character Recognition (OCR) for text extraction from photos</li>
+            <li>Temporary recycle bin with 24-hour recovery period</li>
+            <li>Local storage management within the application's private sandbox</li>
         </ul>
 
-        <h2>3. License Grant</h2>
-        <p>Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to download, install, and use the App on your iOS device for personal, non-commercial purposes.</p>
-
-        <h2>4. User Responsibilities</h2>
+        <h2>3. License Grant and Restrictions</h2>
         
-        <h3>You Agree To:</h3>
+        <h3>3.1 License Grant</h3>
+        <p>Subject to your compliance with these Terms, we grant you a limited, non-exclusive, non-transferable, non-sublicensable, and revocable license to download, install, and use the App on your personal iOS device solely for personal, non-commercial purposes.</p>
+
+        <h3>3.2 License Restrictions</h3>
+        <p>You expressly agree not to:</p>
         <ul>
-            <li>Use the App only for lawful purposes</li>
-            <li>Not use the App to capture, store, or share content that is illegal, harmful, threatening, abusive, harassing, defamatory, vulgar, obscene, or otherwise objectionable</li>
-            <li>Not attempt to reverse engineer, decompile, or disassemble the App</li>
-            <li>Not use the App in any way that could damage, disable, overburden, or impair the App</li>
-            <li>Comply with all applicable laws and regulations when using the App</li>
+            <li>Copy, modify, adapt, translate, or create derivative works of the App</li>
+            <li>Reverse engineer, decompile, disassemble, or attempt to derive the source code of the App</li>
+            <li>Remove, obscure, or alter any proprietary notices, labels, or marks on or within the App</li>
+            <li>Rent, lease, lend, sell, redistribute, or sublicense the App</li>
+            <li>Use the App for any commercial purpose or for the benefit of any third party</li>
+            <li>Use the App in any manner that violates any applicable law or regulation</li>
+            <li>Interfere with or disrupt the operation of the App or any servers or networks connected to the App</li>
+            <li>Circumvent, disable, or otherwise interfere with security-related features of the App</li>
         </ul>
 
-        <h3>Photo Content:</h3>
+        <h2>4. User Responsibilities and Conduct</h2>
+        
+        <h3>4.1 Lawful Use</h3>
+        <p>You agree to use the App only for lawful purposes and in accordance with these Terms. You shall not use the App:</p>
         <ul>
-            <li>You are solely responsible for the content of photos you capture and store using the App</li>
-            <li>You own all rights to your photos</li>
-            <li>You are responsible for ensuring you have the right to capture and store any photos in the App</li>
-            <li>You must respect the privacy and intellectual property rights of others</li>
+            <li>In any way that violates any applicable federal, state, local, or international law or regulation</li>
+            <li>To capture, store, transmit, or distribute content that infringes any patent, trademark, trade secret, copyright, or other proprietary rights of any party</li>
+            <li>To capture, store, or share content that is unlawful, harmful, threatening, abusive, harassing, tortious, defamatory, vulgar, obscene, libelous, invasive of another's privacy, hateful, or racially, ethnically, or otherwise objectionable</li>
+            <li>To harm minors in any way or to capture, store, or distribute content depicting minors in a harmful or exploitative manner</li>
+            <li>To impersonate any person or entity or falsely state or misrepresent your affiliation with a person or entity</li>
         </ul>
 
-        <div class="warning">
-            <h2><span class="emoji">⚠️</span> 5. Automatic Photo Deletion</h2>
+        <h3>4.2 Photo Content Responsibility</h3>
+        <p>You acknowledge and agree that:</p>
+        <ul>
+            <li>You are solely responsible for all photos and content you capture, create, store, or share using the App</li>
+            <li>You retain all ownership rights to photos you create using the App</li>
+            <li>You are responsible for ensuring you have all necessary rights, licenses, consents, and permissions to capture and store any photos using the App</li>
+            <li>You must respect the privacy rights, intellectual property rights, and other legal rights of third parties</li>
+            <li>You must obtain appropriate consent before capturing photos of individuals, particularly in private settings</li>
+            <li>We do not claim any ownership rights to your photos and content</li>
+        </ul>
+
+        <h3>4.3 Compliance with Applicable Laws</h3>
+        <p>You are responsible for ensuring your use of the App complies with all applicable laws in your jurisdiction, including but not limited to laws regarding privacy, data protection, photography in public and private spaces, intellectual property, and consent requirements.</p>
+
+        <div class="critical-notice">
+            <h3>5. Automatic Photo Deletion and Data Loss</h3>
             
-            <h3>Important Notice:</h3>
+            <p class="caps-text">CRITICAL NOTICE REGARDING DATA RETENTION:</p>
+            
+            <p>The App is specifically designed for temporary photo storage with automatic deletion functionality. You expressly acknowledge and agree to the following:</p>
+
+            <h3>5.1 Automatic Deletion Mechanism</h3>
             <ul>
-                <li><strong>Photos are automatically deleted</strong> based on your chosen retention period (30 minutes to 1 week, or immediately after sharing)</li>
-                <li><strong>Deleted photos cannot be recovered</strong> after the 24-hour recycle bin period expires</li>
-                <li>We are <strong>not responsible for any data loss</strong> resulting from the app's automatic deletion feature</li>
-                <li>It is your responsibility to save or back up any photos you wish to keep permanently before they are deleted</li>
+                <li>Photos stored in the App are <strong>automatically deleted</strong> based on user-configured retention periods ranging from 30 minutes to 1 week, or immediately after sharing, depending on your settings</li>
+                <li>Deletion occurs automatically without additional warning or confirmation once the retention period expires</li>
+                <li>Photos moved to the recycle bin remain recoverable for 24 hours, after which they are <strong>permanently and irreversibly deleted</strong></li>
+                <li>Once permanently deleted, photos <strong>cannot be recovered by any means</strong>, including by us or through data recovery services</li>
             </ul>
 
-            <h3>Backup Recommendation:</h3>
-            <p>We strongly recommend saving important photos to your device's Photos library or backing them up to your preferred cloud service before they are automatically deleted by the app.</p>
+            <h3>5.2 No Liability for Data Loss</h3>
+            <p>We expressly disclaim all liability and responsibility for any loss of photos or data, including but not limited to loss resulting from:</p>
+            <ul>
+                <li>Automatic deletion based on configured retention periods</li>
+                <li>Accidental deletion by you or any other user of your device</li>
+                <li>Device failure, loss, theft, or damage</li>
+                <li>Software updates, iOS updates, or application crashes</li>
+                <li>Application deletion or device reset</li>
+                <li>Any other cause, whether foreseeable or unforeseeable</li>
+            </ul>
+
+            <h3>5.3 User Backup Responsibility</h3>
+            <p class="caps-text">IT IS ENTIRELY YOUR RESPONSIBILITY to save or back up any photos you wish to retain permanently. We strongly recommend:</p>
+            <ul>
+                <li>Saving important photos to your device's Photos library before the retention period expires</li>
+                <li>Backing up important photos to cloud storage services (iCloud, Google Photos, etc.)</li>
+                <li>Maintaining additional backups of critical photos</li>
+                <li>Understanding and regularly reviewing your configured retention settings</li>
+            </ul>
+
+            <p>By using the App, you expressly acknowledge that you understand the temporary nature of photo storage and accept full responsibility for any data loss resulting from the App's automatic deletion feature or any other cause.</p>
         </div>
 
-        <h2>6. No Warranty</h2>
-        <p>THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:</p>
+        <h2>6. Disclaimer of Warranties</h2>
+        
+        <p class="caps-text">THE APP IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED.</p>
+
+        <p>To the maximum extent permitted by applicable law, we disclaim all warranties, express or implied, including but not limited to:</p>
         <ul>
-            <li>Warranties of merchantability, fitness for a particular purpose, or non-infringement</li>
-            <li>The App will be uninterrupted, timely, secure, or error-free</li>
-            <li>Any errors in the App will be corrected</li>
-            <li>The App will meet your requirements or expectations</li>
+            <li>Implied warranties of merchantability, fitness for a particular purpose, and non-infringement</li>
+            <li>Warranties that the App will be uninterrupted, timely, secure, or error-free</li>
+            <li>Warranties that the results obtained from use of the App will be accurate or reliable</li>
+            <li>Warranties regarding the quality of any products, services, information, or other material obtained through the App</li>
+            <li>Warranties that any errors in the App will be corrected</li>
         </ul>
+
+        <p>No advice or information, whether oral or written, obtained by you from us or through the App shall create any warranty not expressly stated in these Terms.</p>
 
         <h2>7. Limitation of Liability</h2>
-        <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW:</p>
+        
+        <p class="caps-text">TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL WE, OUR AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUPPLIERS, OR LICENSORS BE LIABLE FOR:</p>
+
         <ul>
-            <li>We shall not be liable for any indirect, incidental, special, consequential, or punitive damages</li>
-            <li>We shall not be liable for any loss of photos, data, or other content</li>
-            <li>We shall not be liable for any damages resulting from your use or inability to use the App</li>
-            <li>Our total liability shall not exceed the amount you paid for the App (if applicable)</li>
+            <li>Any indirect, incidental, special, consequential, punitive, or exemplary damages, including but not limited to damages for loss of profits, goodwill, use, data, or other intangible losses</li>
+            <li>Any direct damages exceeding the amount you paid to us for the App in the twelve (12) months preceding the claim (which, if the App is free, shall be zero)</li>
+            <li>Any loss of photos, data, or content, regardless of cause</li>
+            <li>Any damages resulting from: (a) your use or inability to use the App; (b) unauthorized access to or alteration of your photos or data; (c) any conduct or content of any third party on or through the App; or (d) any other matter relating to the App</li>
         </ul>
 
-        <div class="highlight">
-            <h2>8. Data Loss Disclaimer</h2>
-            <p><strong>CRITICAL NOTICE:</strong> Photos in GhostShot are designed to be temporary and will be automatically deleted. We are not liable for:</p>
-            <ul>
-                <li>Photos deleted by the automatic retention system</li>
-                <li>Accidental deletion of photos by you or other users</li>
-                <li>Loss of photos due to device failure, software updates, or app crashes</li>
-                <li>Any data loss resulting from app deletion or device reset</li>
-            </ul>
-        </div>
+        <p>These limitations apply regardless of the legal theory on which the claim is based (contract, tort, strict liability, or otherwise) and even if we have been advised of the possibility of such damages.</p>
 
-        <h2>9. Modifications to the App</h2>
-        <p>We reserve the right to:</p>
+        <p>Some jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitations may not apply to you. In such jurisdictions, our liability shall be limited to the maximum extent permitted by law.</p>
+
+        <h2>8. Indemnification</h2>
+        
+        <p>You agree to indemnify, defend, and hold harmless us, our affiliates, officers, directors, employees, agents, licensors, and suppliers from and against any claims, actions, demands, liabilities, judgments, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to:</p>
         <ul>
-            <li>Modify, suspend, or discontinue the App at any time without notice</li>
-            <li>Update these Terms at any time</li>
-            <li>Change app features, functionality, or pricing (if applicable)</li>
-        </ul>
-        <p>Continued use of the App after changes constitutes acceptance of the modified Terms.</p>
-
-        <h2>10. Privacy</h2>
-        <p>Your use of the App is also governed by our <a href="https://ptroya.github.io/ghostshot-legal/privacy.html">Privacy Policy</a>, which is incorporated into these Terms by reference. Please review our Privacy Policy to understand how we handle information.</p>
-
-        <h2>11. Intellectual Property</h2>
-        <p>The App, including all content, features, and functionality, is owned by us and is protected by copyright, trademark, and other intellectual property laws. You may not:</p>
-        <ul>
-            <li>Copy, modify, or create derivative works of the App</li>
-            <li>Use our trademarks or branding without permission</li>
-            <li>Remove or alter any proprietary notices in the App</li>
+            <li>Your use of the App or violation of these Terms</li>
+            <li>Your photos, content, or materials submitted through or stored in the App</li>
+            <li>Your violation of any rights of another party, including intellectual property rights or privacy rights</li>
+            <li>Your violation of any applicable law or regulation</li>
         </ul>
 
-        <h2>12. Third-Party Services</h2>
-        <p>If you choose to share photos from the App to third-party services (Messages, Mail, social media, etc.):</p>
+        <h2>9. Modifications to the App and Terms</h2>
+        
+        <h3>9.1 Modifications to the App</h3>
+        <p>We reserve the right, at our sole discretion, to:</p>
         <ul>
-            <li>Those services are governed by their own terms and privacy policies</li>
-            <li>We are not responsible for how third parties handle your shared content</li>
-            <li>Sharing photos removes them from our automatic deletion protection</li>
+            <li>Modify, suspend, or discontinue the App (or any part thereof) at any time, temporarily or permanently, with or without notice</li>
+            <li>Change, add, or remove features or functionality of the App</li>
+            <li>Impose limits on certain features or restrict access to parts or all of the App</li>
         </ul>
+        <p>We shall not be liable to you or any third party for any modification, suspension, or discontinuance of the App.</p>
+
+        <h3>9.2 Modifications to Terms</h3>
+        <p>We reserve the right to modify these Terms at any time. Changes will be effective immediately upon posting of the updated Terms within the App or on our website. The "Last Updated" date at the top of these Terms indicates when the Terms were last revised.</p>
+        
+        <p>Your continued use of the App after the posting of modified Terms constitutes your acceptance of such changes. If you do not agree to the modified Terms, you must discontinue use of the App.</p>
+
+        <h2>10. Privacy and Data Handling</h2>
+        
+        <p>Your use of the App is also governed by our Privacy Policy, available at <a href="https://ptroya.github.io/ghostshot-legal/privacy.html">https://ptroya.github.io/ghostshot-legal/privacy.html</a>, which is incorporated into these Terms by reference.</p>
+
+        <p>Please review the Privacy Policy carefully to understand our practices regarding the collection, use, and disclosure of information. By using the App, you consent to the practices described in the Privacy Policy.</p>
+
+        <h2>11. Intellectual Property Rights</h2>
+        
+        <h3>11.1 Our Intellectual Property</h3>
+        <p>The App, including all content, features, functionality, software, user interface, graphics, design, compilation, and the selection and arrangement thereof, is owned by us or our licensors and is protected by United States and international copyright, trademark, patent, trade secret, and other intellectual property laws.</p>
+
+        <h3>11.2 Restrictions</h3>
+        <p>You may not:</p>
+        <ul>
+            <li>Use our trademarks, service marks, trade names, logos, or branding without our prior written permission</li>
+            <li>Remove, obscure, or alter any copyright, trademark, or other proprietary rights notices contained in or on the App</li>
+            <li>Use the App or any content from the App for any commercial purpose without our express written consent</li>
+        </ul>
+
+        <h3>11.3 Your Content</h3>
+        <p>You retain all rights to photos and content you create using the App. We do not claim any ownership rights to your photos or content. However, by using the App's sharing features, you grant necessary permissions to third-party services to display and distribute your shared content according to their respective terms of service.</p>
+
+        <h2>12. Third-Party Services and Content</h2>
+        
+        <h3>12.1 Third-Party Sharing</h3>
+        <p>The App allows you to share photos to third-party services such as messaging applications, email, social media platforms, and other services available through iOS sharing functionality. You acknowledge and agree that:</p>
+        <ul>
+            <li>Third-party services are governed by their own terms of service and privacy policies</li>
+            <li>We are not responsible for the practices, policies, or actions of third-party services</li>
+            <li>Once you share photos to third-party services, those photos are no longer subject to the App's automatic deletion functionality</li>
+            <li>We have no control over and assume no responsibility for content shared to third-party services</li>
+        </ul>
+
+        <h3>12.2 Links to Third-Party Websites</h3>
+        <p>The App or our communications may contain links to third-party websites or resources. We provide these links only as a convenience and are not responsible for the content, products, or services provided by such third parties. Your use of third-party websites and resources is at your own risk and subject to the terms and conditions of those third parties.</p>
 
         <h2>13. Termination</h2>
-        <p>We may terminate or suspend your access to the App immediately, without notice, for any reason, including:</p>
+        
+        <h3>13.1 Termination by Us</h3>
+        <p>We reserve the right to terminate or suspend your access to the App immediately, without prior notice or liability, for any reason, including without limitation if:</p>
         <ul>
-            <li>Violation of these Terms</li>
-            <li>Illegal or harmful use of the App</li>
-            <li>At our sole discretion</li>
+            <li>You breach or violate any provision of these Terms</li>
+            <li>You engage in illegal or harmful use of the App</li>
+            <li>We determine, in our sole discretion, that your use of the App poses a risk to us, other users, or third parties</li>
+            <li>We discontinue the App or any portion thereof</li>
         </ul>
-        <p>You may stop using the App at any time by deleting it from your device.</p>
 
-        <h2>14. Governing Law</h2>
-        <p>These Terms shall be governed by and construed in accordance with the laws of Florida, United States, without regard to its conflict of law provisions.</p>
+        <h3>13.2 Termination by You</h3>
+        <p>You may terminate your use of the App at any time by uninstalling the App from your device and ceasing all use thereof.</p>
 
-        <h2>15. Dispute Resolution</h2>
-        <p>Any disputes arising from these Terms or your use of the App shall be resolved through:</p>
-        <ol>
-            <li>Good faith negotiation</li>
-            <li>If negotiation fails, binding arbitration in Florida, United States</li>
-            <li>Small claims court (if applicable)</li>
-        </ol>
+        <h3>13.3 Effect of Termination</h3>
+        <p>Upon termination of your use of the App, whether by you or by us:</p>
+        <ul>
+            <li>Your license to use the App immediately terminates</li>
+            <li>You must cease all use of the App and delete all copies from your devices</li>
+            <li>All provisions of these Terms which by their nature should survive termination shall survive, including ownership provisions, warranty disclaimers, indemnity obligations, and limitations of liability</li>
+        </ul>
 
-        <h2>16. Severability</h2>
-        <p>If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.</p>
+        <h2>14. Dispute Resolution and Arbitration</h2>
+        
+        <h3>14.1 Informal Resolution</h3>
+        <p>In the event of any dispute, claim, or controversy arising out of or relating to these Terms or the App, the parties agree to first attempt to resolve the dispute informally by contacting us at help.ghostshot@gmail.com. We will attempt to resolve the dispute through good faith negotiation within sixty (60) days.</p>
 
-        <h2>17. Entire Agreement</h2>
-        <p>These Terms, together with our Privacy Policy, constitute the entire agreement between you and us regarding the App and supersede all prior agreements.</p>
+        <h3>14.2 Binding Arbitration</h3>
+        <p>If the dispute cannot be resolved through informal negotiation, you agree that any dispute, claim, or controversy shall be resolved by binding arbitration administered by a recognized arbitration association in Miami-Dade County, Florida, in accordance with its arbitration rules then in effect.</p>
 
-        <h2>18. Contact Information</h2>
-        <p>For questions about these Terms, please contact:</p>
+        <h3>14.3 Class Action Waiver</h3>
+        <p>You agree that any arbitration or proceeding shall be limited to the dispute between you and us individually. To the full extent permitted by law, you agree that:</p>
+        <ul>
+            <li>No arbitration or proceeding shall be joined with any other</li>
+            <li>There is no right or authority for any dispute to be arbitrated on a class-action basis or to utilize class action procedures</li>
+            <li>You will not participate as a class representative or class member in any class action against us</li>
+        </ul>
+
+        <h3>14.4 Small Claims Court</h3>
+        <p>Notwithstanding the above, you may bring an individual action in small claims court in your local jurisdiction if the claim qualifies for such court and remains in such court.</p>
+
+        <h2>15. Governing Law and Jurisdiction</h2>
+        
+        <p>These Terms and any dispute or claim arising out of or in connection with them or their subject matter shall be governed by and construed in accordance with the laws of the State of Florida, United States, without regard to its conflict of law provisions.</p>
+
+        <p>You agree to submit to the personal jurisdiction of the state and federal courts located in Miami-Dade County, Florida for any actions not subject to the arbitration provisions set forth above.</p>
+
+        <h2>16. General Provisions</h2>
+        
+        <h3>16.1 Entire Agreement</h3>
+        <p>These Terms, together with the Privacy Policy and any other legal notices published by us through the App, constitute the entire agreement between you and us concerning the App and supersede all prior or contemporaneous agreements, representations, warranties, and understandings with respect to the App.</p>
+
+        <h3>16.2 Severability</h3>
+        <p>If any provision of these Terms is found to be invalid, illegal, or unenforceable by a court of competent jurisdiction, such provision shall be modified to the minimum extent necessary to make it valid and enforceable while preserving its intent, or if such modification is not possible, such provision shall be severed from these Terms. The remaining provisions shall continue in full force and effect.</p>
+
+        <h3>16.3 Waiver</h3>
+        <p>No waiver of any provision of these Terms shall be deemed a further or continuing waiver of such provision or any other provision. Our failure to assert any right or provision under these Terms shall not constitute a waiver of such right or provision.</p>
+
+        <h3>16.4 Assignment</h3>
+        <p>You may not assign, transfer, or delegate your rights or obligations under these Terms without our prior written consent. We may assign, transfer, or delegate our rights and obligations under these Terms without restriction. Subject to the foregoing, these Terms shall bind and inure to the benefit of the parties and their respective successors and permitted assigns.</p>
+
+        <h3>16.5 Force Majeure</h3>
+        <p>We shall not be liable for any failure or delay in performance under these Terms due to causes beyond our reasonable control, including but not limited to acts of God, war, terrorism, riots, embargoes, acts of civil or military authorities, fire, floods, accidents, pandemics, strikes, or shortages of transportation, facilities, fuel, energy, labor, or materials.</p>
+
+        <h3>16.6 Notice</h3>
+        <p>We may provide notices to you via email (if provided), through the App, or by posting to our website. You agree that such electronic notices satisfy any legal requirement that such communications be in writing.</p>
+
+        <h2>17. Age Requirements</h2>
+        
+        <p>The App is intended for users who are at least thirteen (13) years of age. If you are under 13 years of age, you are not permitted to use the App. By using the App, you represent and warrant that you are at least 13 years of age.</p>
+
+        <p>If you are between 13 and 18 years of age (or the age of majority in your jurisdiction), you represent that your legal guardian has reviewed and agreed to these Terms on your behalf.</p>
+
+        <h2>18. International Use</h2>
+        
+        <p>The App is controlled and operated from the United States. We make no representation that the App is appropriate or available for use in all locations. If you access the App from outside the United States, you do so at your own initiative and are responsible for compliance with local laws.</p>
+
+        <h2>19. Contact Information</h2>
+        
+        <p>For questions, concerns, or notices regarding these Terms of Service, please contact us:</p>
+        
         <p>
             <strong>Email:</strong> <a href="mailto:help.ghostshot@gmail.com">help.ghostshot@gmail.com</a><br>
-            <strong>Support:</strong> <a href="https://ptroya.github.io/ghostshot-legal/support.html">Support Page</a>
+            <strong>Support:</strong> <a href="https://ptroya.github.io/ghostshot-legal/support.html">https://ptroya.github.io/ghostshot-legal/support.html</a>
         </p>
 
-        <h2>19. Acknowledgment</h2>
-        <p>By using GhostShot, you acknowledge that:</p>
+        <h2>20. Acknowledgment and Acceptance</h2>
+        
+        <p>By downloading, installing, or using GhostShot, you expressly acknowledge and agree that:</p>
         <ul>
-            <li>You have read and understood these Terms</li>
-            <li>You agree to be bound by these Terms</li>
-            <li>You understand that photos will be automatically deleted</li>
-            <li>You are responsible for backing up important content</li>
-            <li>You are at least 13 years old (or have parental consent if required in your region)</li>
+            <li>You have read, understood, and agree to be bound by these Terms of Service in their entirety</li>
+            <li>You understand the automatic photo deletion functionality and accept full responsibility for backing up important content</li>
+            <li>You understand that photos will be permanently deleted and cannot be recovered after the specified retention period</li>
+            <li>You are at least 13 years of age (or have obtained parental/guardian consent if required in your jurisdiction)</li>
+            <li>You will use the App only for lawful purposes and in compliance with all applicable laws</li>
+            <li>You accept all risks associated with the use of the App, including the risk of data loss</li>
         </ul>
 
         <hr>
 
-        <p class="metadata">
-            <strong>Last Updated:</strong> October 17, 2025<br>
-            <strong>Version:</strong> 1.0
+        <p style="font-size: 14px; color: #666666; text-align: center; margin-top: 40px;">
+            © 2025 GhostShot. All rights reserved.
         </p>
     </div>
 </body>
